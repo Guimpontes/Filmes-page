@@ -1,0 +1,44 @@
+* {
+    font-family: 'Imprima', sans-serif;
+}
+
+.header-color {
+    background-color: #E50914;
+}
+
+.body-color {
+    background-color: #353535
+}
+
+.slide-width-500 {
+    width: 600px;
+}
+
+.slide-height-300 {
+    height: 320px;
+}
+
+.slide-color {
+    background-color: #454545;
+}
+
+img {
+    width: 200px;
+    height: 320px;
+}
+
+.font-text-sz {
+    font-size: 22px;
+    text-decoration: underline
+}
+
+.height-320 {
+    height: 320px;
+}
+
+.hover-btn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
