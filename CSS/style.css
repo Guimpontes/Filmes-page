@@ -1,8 +1,10 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Imprima', sans-serif;
 }
 
-.header-color {
+.nav-color {
     background-color: #E50914;
 }
 
@@ -29,7 +31,6 @@ img {
 
 .font-text-sz {
     font-size: 22px;
-    text-decoration: underline
 }
 
 .height-320 {
@@ -42,3 +43,45 @@ img {
     transition: 0.3s;
 }
 
+li {
+    cursor: pointer;
+}
+
+.filmes {
+    width: 150px;
+    height: 200px;
+    position: relative;
+}
+
+.filmes img {
+    width: 100%;
+    height: 100%;
+}
+
+.filmes button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.filmes:hover img ~ button {
+    opacity: 1;
+}
+
+.modal-filmes {
+    background-color: #313131;
+}
+
+.modal-filmes a {
+    background-color: #E50914;
+}
+
+.modal-filmes a span img {
+    width: 24px;
+    height: 24px;
+}

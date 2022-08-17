@@ -14,7 +14,7 @@
 
 <body class="body-color">
     <header>
-        <nav class="navbar navbar-expand-md header-color navbar-dark justify-content-between">
+        <nav class="navbar navbar-expand-md nav-color navbar-dark justify-content-between">
             <div class="navbar-brand">Filmes.net</div>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar">
@@ -45,9 +45,9 @@
         </nav>
     </header>
 
-
-    <div style="position:relative" id="meuCarrossel" class="carousel slide-width-500 slide-height-300 slide mt-5 mx-auto slide-color text-light rounded"
-        data-ride="carousel" >
+    <div id="meuCarrossel"
+        class="carousel slide-width-500 slide-height-300 slide mt-5 mx-auto slide-color text-light rounded"
+        data-ride="carousel">
 
         <ul style="top: 330px" class="carousel-indicators pb-3">
             <li data-target="#meuCarrossel" data-slide-to="0" class="active"></li>
@@ -60,7 +60,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="d-flex">
-                    <img class="rounded-left"  src="./assets/slide/slide-1.jpg">
+                    <img class="rounded-left" src="./assets/slide/slide-1.jpg">
 
                     <div class="height-320 p-2 d-flex flex-column height-100 justify-content-around align-items-center">
                         <h1 class="font-text-sz text-center">O telefone preto</h1>
@@ -161,7 +161,127 @@
         </a>
     </div>
 
+    <div class="filmes-capa container mt-5 d-flex justify-content-around flex-wrap">
+        <div class="filme1 filmes m-3">
+            <img src="./assets/capas/capa-1.jpg">
+            <button class="btn" data-toggle="modal" data-target="#modal-1">Saiba mais</button>
+        </div>
 
+        <div class="filme1 filmes m-3">
+            <img src="./assets/capas/capa-2.jpg">
+            <button class="btn" data-toggle="modal" data-target="#modal-2">Saiba mais</button>
+        </div>
+
+        <div class="filme1 filmes m-3">
+            <img src="./assets/capas/capa-3.jpg">
+            <button class="btn" data-toggle="modal" data-target="#modal-3">Saiba mais</button>
+        </div>
+
+        <div class="filme1 filmes m-3">
+            <img src="./assets/capas/capa-4.png">
+            <button class="btn" data-toggle="modal" data-target="#modal-4">Saiba mais</button>
+        </div>
+
+        <div class="modal fade" id="modal-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="moda-body modal-filmes text-light p-3">
+                        <h1 class="font-text-sz text-center">Tudo em Todo o Lugar ao Mesmo Tempo</h1>
+
+                        <p class="text-justify">Em Tudo em Todo Lugar ao Mesmo Tempo, acompanhamos uma sobrecarregada
+                            imigrante chinesa, Evelyn Wang (Michelle Yeoh) que com sua lavanderia à beira do fracasso e
+                            seu casamento com o marido covarde em ruínas, ela luta para lidar com tudo, incluindo um
+                            relacionamento ruim com seu pai crítico e sua filha (Stephanie Hsu). E, como se não bastasse
+                            enfrentar a crise pessoal, Evelyn precisa se preparar para uma reunião desagradável com uma
+                            burocrata impessoal: Deirdre (Jamie Lee Curtis), a auditora da Receita Federal
+                        </p>
+
+                        <p>Data de lançamento: 23 de junho de 2022.</p>
+
+                        <p>Diretores: Daniel Kwan, Daniel Scheinert.</p>
+
+                        <p>2022 ‧ Ficção científica/Aventura ‧ 2h 19m.</p>
+
+                        <a href="https://www.youtube.com/watch?v=kULcXm9V7aY&t=73s&ab_channel=Ingresso.com"
+                            class="btn text-light align-self-start">Assistir trailer <span><img
+                                    src="./assets/capas/play.svg" class="ml-3"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-2">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="moda-body modal-filmes text-light p-3">
+                        <h1 class="font-text-sz text-center">Sonic 2 - O Filme</h1>
+
+                        <p class="text-justify">O Dr. Robotnik retorna à procura de uma esmeralda mística que tem o
+                            poder de destruir civilizações. Para detê-lo, Sonic se une a seu antigo parceiro, Tails, e
+                            parte em uma jornada para encontrar a joia antes que ela caia em mãos erradas.
+                        </p>
+
+                        <p>Data de lançamento: 7 de abril de 2022.</p>
+
+                        <p>Diretor: Jeff Fowler.</p>
+
+                        <p>2022 ‧ Aventura/Comédia ‧ 2h 2m.</p>
+
+                        <a href="https://www.youtube.com/watch?v=tGIJhiScKbk&ab_channel=MelhoresTrailersdeFilmes"
+                            class="btn text-light align-self-start">Assistir trailer <span><img
+                                    src="./assets/capas/play.svg" class="ml-3"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-3">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="moda-body modal-filmes text-light p-3">
+                        <h1 class="font-text-sz text-center">A Babá: O Chamado das Sombras</h1>
+
+                        <p class="text-justify">Uma família se muda para um novo apartamento e contrata uma misteriosa babá para cuidar da filha recém-nascida. Quando as duas desaparecem, eles descobrem que estavam lidando com uma força demoníaca conhecida como Baba Yaga.
+                        </p>
+
+                        <p>Data de lançamento: 3 de setembro de 2020.</p>
+
+                        <p>Diretor: Svyatoslav Podgayevskiy</p>
+
+                        <p>2020 ‧ Terror/Sobrenatural ‧ 1h 53m
+                        </p>
+
+                        <a href="https://www.youtube.com/watch?v=kL5wAOWArMA&ab_channel=Ingresso.com"
+                            class="btn text-light align-self-start">Assistir trailer <span><img
+                                    src="./assets/capas/play.svg" class="ml-3"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-4">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="moda-body modal-filmes text-light p-3">
+                        <h1 class="font-text-sz text-center">Uncharted: Fora do Mapa</h1>
+
+                        <p class="text-justify">Nathan Drake e seu parceiro canastrão Victor "Sully" Sullivan embarcam em uma perigosa busca para encontrar o maior tesouro jamais encontrado. Enquanto isso, eles também rastreiam pistas que podem levar ao irmão perdido de Nathan.
+                        </p>
+
+                        <p>Data de lançamento: 17 de fevereiro de 2022.</p>
+
+                        <p>Diretor: Ruben Fleischer.</p>
+
+                        <p>2022 ‧ Aventura/Ação ‧ 1h 56m.</p>
+
+                        <a href="https://www.youtube.com/watch?v=jsgd_jVH834&ab_channel=SonyPicturesBrasil"
+                            class="btn text-light align-self-start">Assistir trailer <span><img
+                                    src="./assets/capas/play.svg" class="ml-3"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
