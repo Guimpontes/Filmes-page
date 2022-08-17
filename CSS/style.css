@@ -4,14 +4,22 @@
     font-family: 'Imprima', sans-serif;
 }
 
+body {
+    padding: 0 !important;
+}
+
+
+/*Cor do menu de navegação*/
 .nav-color {
     background-color: #E50914;
 }
 
+/*Cor da página*/
 .body-color {
     background-color: #353535
 }
 
+/*Largura e Altura do slide*/
 .slide-width {
     width: 600px;
 }
@@ -20,33 +28,33 @@
     height: 320px;
 }
 
+/*Cor de fundo do slide*/
 .slide-color {
     background-color: #454545;
 }
 
+/*Imagens do slide*/
 img {
     width: 220px;
     height: 320px;
 }
 
-.font-text-sz {
-    font-size: 22px;
-}
-
+/*Classe para ajustar a altura em 320px*/
 .height-320 {
     height: 320px;
 }
 
-.hover-btn:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    transition: 0.3s;
+/*Classe para ajustar a fonte para 22px*/
+.font-text-sz {
+    font-size: 22px;
 }
 
+/*Aplicando um cursor pointer nos indicators*/
 li {
     cursor: pointer;
 }
 
+/*Estilizando a arrow para passar o slide*/
 .left-arrow {
     width: 20px;
     height: 20px;
@@ -55,6 +63,7 @@ li {
     transform: translateY(-50%)
 }
 
+/*Estilizando a arrow para voltar o slide*/
 .right-arrow {
     width: 20px;
     height: 20px;
@@ -63,17 +72,16 @@ li {
     transform: translateY(-50%);
 }
 
+/*Estilizando as capas dos filmes da página*/
 .filmes {
     width: 150px;
     height: 200px;
     position: relative;
 }
-
 .filmes img {
     width: 100%;
     height: 100%;
 }
-
 .filmes button {
     position: absolute;
     top: 50%;
@@ -84,26 +92,30 @@ li {
     color: #fff;
     transition: 0.3s;
 }
-
 .filmes:hover img~button {
     opacity: 1;
 }
 
+/*Tirando o padddin o modal*/
+.modal {
+    padding: 0 !important
+}
+
+/*Estilizando a cor de fundo que contem o conteúdo do modal*/
 .modal-filmes {
     background-color: #313131;
 }
-
 .modal-filmes a {
     background-color: #E50914;
 }
-
 .modal-filmes a span img {
     width: 24px;
     height: 24px;
 }
 
+/*Estilizando a cor de fundo do modal*/
 .modal-bg {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.6)
 }
 
 /*Resposivo*/
@@ -111,6 +123,11 @@ li {
 
     .slide-width {
         width: 500px;
+    }
+
+    .filmes {
+        width: 200px;
+        height: 250px;
     }
 }
 
