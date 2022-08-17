@@ -4,10 +4,10 @@
     font-family: 'Imprima', sans-serif;
 }
 
+/*Ajustando o padding do body*/
 body {
     padding: 0 !important;
 }
-
 
 /*Cor do menu de navegação*/
 .nav-color {
