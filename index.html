@@ -45,8 +45,7 @@
         </nav>
     </header>
 
-    <div id="meuCarrossel"
-        class="carousel slide-width-500 slide-height-300 slide mt-5 mx-auto slide-color text-light rounded"
+    <div id="meuCarrossel" class="carousel slide-width slide-height slide mt-5 mx-auto slide-color text-light rounded"
         data-ride="carousel">
 
         <ul style="top: 330px" class="carousel-indicators pb-3">
@@ -120,12 +119,12 @@
 
                         <p>Nesta aventura de ficção científica cheia de ação, conhecemos a origem definitiva de
                             Buzz
-                            Lightyear (voz de Chris Evans), o herói que inspirou o brinquedo. “Lightyear” segue
+                            Lightyear, o herói que inspirou o brinquedo. “Lightyear” segue
                             o
                             lendário Space Ranger em uma aventura intergaláctica ao lado de um grupo de recrutas
-                            ambiciosos (vozes de Keke Palmer, Dale Soules e Taika Waititi), e seu companheiro
+                            ambiciosos, e seu companheiro
                             robô
-                            Sox (voz de Peter Sohn). </p>
+                            Sox. </p>
 
                         <button class="btn btn-success align-self-end">Saiba mais</button>
                     </div>
@@ -152,11 +151,11 @@
             </div>
         </div>
 
-        <a style="left: -100px" class="carousel-control-prev" href="#meuCarrossel" data-slide="prev">
+        <a class="carousel-control-prev left-arrow" href="#meuCarrossel" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </a>
 
-        <a style="right: -100px" class="carousel-control-next" href="#meuCarrossel" data-slide="next">
+        <a class="carousel-control-next right-arrow" href="#meuCarrossel" data-slide="next">
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
@@ -182,7 +181,12 @@
             <button class="btn" data-toggle="modal" data-target="#modal-4">Saiba mais</button>
         </div>
 
-        <div class="modal fade" id="modal-1">
+        <div class="filme1 filmes m-3">
+            <img src="./assets/capas/filme-5.jpg">
+            <button class="btn" data-toggle="modal" data-target="#modal-5">Saiba mais</button>
+        </div>
+
+        <div class="modal fade modal-bg" id="modal-1">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="moda-body modal-filmes text-light p-3">
@@ -210,7 +214,7 @@
             </div>
         </div>
 
-        <div class="modal fade" id="modal-2">
+        <div class="modal fade modal-bg rounded" id="modal-2">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="moda-body modal-filmes text-light p-3">
@@ -235,13 +239,15 @@
             </div>
         </div>
 
-        <div class="modal fade" id="modal-3">
+        <div class="modal fade modal-bg rounded" id="modal-3">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="moda-body modal-filmes text-light p-3">
                         <h1 class="font-text-sz text-center">A Babá: O Chamado das Sombras</h1>
 
-                        <p class="text-justify">Uma família se muda para um novo apartamento e contrata uma misteriosa babá para cuidar da filha recém-nascida. Quando as duas desaparecem, eles descobrem que estavam lidando com uma força demoníaca conhecida como Baba Yaga.
+                        <p class="text-justify">Uma família se muda para um novo apartamento e contrata uma misteriosa
+                            babá para cuidar da filha recém-nascida. Quando as duas desaparecem, eles descobrem que
+                            estavam lidando com uma força demoníaca conhecida como Baba Yaga.
                         </p>
 
                         <p>Data de lançamento: 3 de setembro de 2020.</p>
@@ -259,13 +265,15 @@
             </div>
         </div>
 
-        <div class="modal fade" id="modal-4">
+        <div class="modal fade modal-bg rounded" id="modal-4">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="moda-body modal-filmes text-light p-3">
                         <h1 class="font-text-sz text-center">Uncharted: Fora do Mapa</h1>
 
-                        <p class="text-justify">Nathan Drake e seu parceiro canastrão Victor "Sully" Sullivan embarcam em uma perigosa busca para encontrar o maior tesouro jamais encontrado. Enquanto isso, eles também rastreiam pistas que podem levar ao irmão perdido de Nathan.
+                        <p class="text-justify">Nathan Drake e seu parceiro canastrão Victor "Sully" Sullivan embarcam
+                            em uma perigosa busca para encontrar o maior tesouro jamais encontrado. Enquanto isso, eles
+                            também rastreiam pistas que podem levar ao irmão perdido de Nathan.
                         </p>
 
                         <p>Data de lançamento: 17 de fevereiro de 2022.</p>
@@ -275,6 +283,31 @@
                         <p>2022 ‧ Aventura/Ação ‧ 1h 56m.</p>
 
                         <a href="https://www.youtube.com/watch?v=jsgd_jVH834&ab_channel=SonyPicturesBrasil"
+                            class="btn text-light align-self-start">Assistir trailer <span><img
+                                    src="./assets/capas/play.svg" class="ml-3"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade modal-bg" id="modal-5">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="moda-body modal-filmes text-light p-3">
+                        <h1 class="font-text-sz text-center">The Batman</h1>
+
+                        <p class="text-justify">Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra
+                            nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante
+                            solitário se estabelece como a personificação da vingança para a população.
+                        </p>
+
+                        <p>Data de lançamento: 3 de março de 2022 </p>
+
+                        <p>Diretor: Matt Reeves</p>
+
+                        <p>2022 ‧ Ação/Aventura ‧ 2h 56m</p>
+
+                        <a href="https://www.youtube.com/watch?v=rsQEor4y2hg&ab_channel=WarnerBros.PicturesBrasil"
                             class="btn text-light align-self-start">Assistir trailer <span><img
                                     src="./assets/capas/play.svg" class="ml-3"></span></a>
                     </div>
